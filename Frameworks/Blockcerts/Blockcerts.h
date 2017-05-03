@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for BlockchainCertificates.
-FOUNDATION_EXPORT double BlockchainCertificatesVersionNumber;
+FOUNDATION_EXPORT double BlockcertsVersionNumber;
 
 //! Project version string for BlockchainCertificates.
-FOUNDATION_EXPORT const unsigned char BlockchainCertificatesVersionString[];
+FOUNDATION_EXPORT const unsigned char BlockcertsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BlockchainCertificates/PublicHeader.h>
 

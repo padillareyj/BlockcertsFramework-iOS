@@ -37,7 +37,7 @@
 		832B83E81EBA7575003138E2 /* Blockcerts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832B83D31EBA7574003138E2 /* Blockcerts.framework */; };
 		832B83E91EBA7575003138E2 /* Blockcerts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 832B83D31EBA7574003138E2 /* Blockcerts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		832B84091EBA75B0003138E2 /* Assertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B83F11EBA75B0003138E2 /* Assertion.swift */; };
-		832B840A1EBA75B0003138E2 /* BlockchainCertificates.h in Headers */ = {isa = PBXBuildFile; fileRef = 832B83F21EBA75B0003138E2 /* BlockchainCertificates.h */; };
+		832B840A1EBA75B0003138E2 /* Blockcerts.h in Headers */ = {isa = PBXBuildFile; fileRef = 832B83F21EBA75B0003138E2 /* Blockcerts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		832B840B1EBA75B0003138E2 /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B83F31EBA75B0003138E2 /* Certificate.swift */; };
 		832B840C1EBA75B0003138E2 /* CertificateV1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B83F41EBA75B0003138E2 /* CertificateV1_1.swift */; };
 		832B840D1EBA75B0003138E2 /* CertificateV1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B83F51EBA75B0003138E2 /* CertificateV1_2.swift */; };
@@ -57,7 +57,6 @@
 		832B841C1EBA75B0003138E2 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B84061EBA75B0003138E2 /* Signature.swift */; };
 		832B841D1EBA75B0003138E2 /* TransactionDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B84071EBA75B0003138E2 /* TransactionDataHandler.swift */; };
 		832B841E1EBA75B0003138E2 /* Verify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B84081EBA75B0003138E2 /* Verify.swift */; };
-		832B843A1EBA75BA003138E2 /* BlockchainCertificatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B84201EBA75BA003138E2 /* BlockchainCertificatesTests.swift */; };
 		832B843B1EBA75BA003138E2 /* CertificateParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B84211EBA75BA003138E2 /* CertificateParserTests.swift */; };
 		832B843C1EBA75BA003138E2 /* CertificateV1_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B84221EBA75BA003138E2 /* CertificateV1_1Tests.swift */; };
 		832B843D1EBA75BA003138E2 /* CertificateV1_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B84231EBA75BA003138E2 /* CertificateV1_2Tests.swift */; };
@@ -105,6 +104,7 @@
 		832B846D1EBA84DB003138E2 /* CommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391745F1DA56B6300CB6E54 /* CommonCrypto.framework */; };
 		832B846E1EBA84DB003138E2 /* JSONLD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8354F3101D9F13840008DB09 /* JSONLD.framework */; };
 		832B846F1EBA852F003138E2 /* Blockcerts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832B83D31EBA7574003138E2 /* Blockcerts.framework */; };
+		832B84701EBA8721003138E2 /* BitcoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832B84671EBA7A7C003138E2 /* BitcoinManager.swift */; };
 		834F2EEA1D624FCF008C9650 /* sample_unsigned_cert-1.1.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 834F2EE81D624FCF008C9650 /* sample_unsigned_cert-1.1.0.json */; };
 		834F2EEB1D624FCF008C9650 /* sample_unsigned_cert-invalid_no_email-1.2.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 834F2EE91D624FCF008C9650 /* sample_unsigned_cert-invalid_no_email-1.2.0.json */; };
 		8354F3171D9F13840008DB09 /* JSONLD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8354F3101D9F13840008DB09 /* JSONLD.framework */; };
@@ -294,7 +294,7 @@
 		832B83D31EBA7574003138E2 /* Blockcerts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Blockcerts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		832B83DB1EBA7574003138E2 /* BlockcertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockcertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		832B83F11EBA75B0003138E2 /* Assertion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assertion.swift; sourceTree = "<group>"; };
-		832B83F21EBA75B0003138E2 /* BlockchainCertificates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockchainCertificates.h; sourceTree = "<group>"; };
+		832B83F21EBA75B0003138E2 /* Blockcerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blockcerts.h; sourceTree = "<group>"; };
 		832B83F31EBA75B0003138E2 /* Certificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
 		832B83F41EBA75B0003138E2 /* CertificateV1_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateV1_1.swift; sourceTree = "<group>"; };
 		832B83F51EBA75B0003138E2 /* CertificateV1_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateV1_2.swift; sourceTree = "<group>"; };
@@ -315,7 +315,6 @@
 		832B84061EBA75B0003138E2 /* Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
 		832B84071EBA75B0003138E2 /* TransactionDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionDataHandler.swift; sourceTree = "<group>"; };
 		832B84081EBA75B0003138E2 /* Verify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verify.swift; sourceTree = "<group>"; };
-		832B84201EBA75BA003138E2 /* BlockchainCertificatesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockchainCertificatesTests.swift; sourceTree = "<group>"; };
 		832B84211EBA75BA003138E2 /* CertificateParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateParserTests.swift; sourceTree = "<group>"; };
 		832B84221EBA75BA003138E2 /* CertificateV1_1Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateV1_1Tests.swift; sourceTree = "<group>"; };
 		832B84231EBA75BA003138E2 /* CertificateV1_2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateV1_2Tests.swift; sourceTree = "<group>"; };
@@ -509,9 +508,9 @@
 		832B83F01EBA75B0003138E2 /* Blockcerts */ = {
 			isa = PBXGroup;
 			children = (
-				832B84671EBA7A7C003138E2 /* BitcoinManager.swift */,
 				832B83F11EBA75B0003138E2 /* Assertion.swift */,
-				832B83F21EBA75B0003138E2 /* BlockchainCertificates.h */,
+				832B84671EBA7A7C003138E2 /* BitcoinManager.swift */,
+				832B83F21EBA75B0003138E2 /* Blockcerts.h */,
 				832B83F31EBA75B0003138E2 /* Certificate.swift */,
 				832B83F41EBA75B0003138E2 /* CertificateV1_1.swift */,
 				832B83F51EBA75B0003138E2 /* CertificateV1_2.swift */,
@@ -556,7 +555,6 @@
 		832B841F1EBA75BA003138E2 /* BlockcertsTests */ = {
 			isa = PBXGroup;
 			children = (
-				832B84201EBA75BA003138E2 /* BlockchainCertificatesTests.swift */,
 				832B84211EBA75BA003138E2 /* CertificateParserTests.swift */,
 				832B84221EBA75BA003138E2 /* CertificateV1_1Tests.swift */,
 				832B84231EBA75BA003138E2 /* CertificateV1_2Tests.swift */,
@@ -772,7 +770,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				832B840A1EBA75B0003138E2 /* BlockchainCertificates.h in Headers */,
+				832B840A1EBA75B0003138E2 /* Blockcerts.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1378,13 +1376,13 @@
 				832B84621EBA762D003138E2 /* IssuerCreationRequest.swift in Sources */,
 				832B84411EBA75BA003138E2 /* IssuerTests.swift in Sources */,
 				832B84561EBA7620003138E2 /* CertificateV2.swift in Sources */,
+				832B84701EBA8721003138E2 /* BitcoinManager.swift in Sources */,
 				832B845C1EBA762A003138E2 /* Receipt.swift in Sources */,
 				832B843B1EBA75BA003138E2 /* CertificateParserTests.swift in Sources */,
 				832B84651EBA762D003138E2 /* TransactionDataHandler.swift in Sources */,
 				832B84421EBA75BA003138E2 /* MetadataTests.swift in Sources */,
 				832B843C1EBA75BA003138E2 /* CertificateV1_1Tests.swift in Sources */,
 				832B84631EBA762D003138E2 /* IssuerIntroductionRequest.swift in Sources */,
-				832B843A1EBA75BA003138E2 /* BlockchainCertificatesTests.swift in Sources */,
 				832B84661EBA762D003138E2 /* Verify.swift in Sources */,
 				832B845D1EBA762A003138E2 /* ReceiptVerifier.swift in Sources */,
 				832B84441EBA75BA003138E2 /* ReceiptTests.swift in Sources */,
