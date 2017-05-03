@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Blockcerts.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>BlockchainCertificates copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>ImportAction.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +63,16 @@
 			<true/>
 		</dict>
 		<key>832A0BB71D8B12D900BDCD59</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>832B83D21EBA7574003138E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>832B83DA1EBA7574003138E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
